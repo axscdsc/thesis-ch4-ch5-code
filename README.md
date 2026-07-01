@@ -2,7 +2,7 @@
 
 Code for Chapters 4 and 5 of the dissertation *Market Making When Filtering Fads from Order Arrivals*.
 
-Repository: `0720BoyaoZhang/thesis-ch4-ch5-code`
+Repository: `axscdsc/thesis-ch4-ch5-code`
 
 ## Repository Structure
 
@@ -48,27 +48,6 @@ Chapter 5:
 - `ch5_full_belief_nn/exp55_misspec_eval_baseline_nn.py`
 - `ch5_full_belief_nn/exp56_refined_common_fiplug_benchmark.py`
 - `ch5_full_belief_nn/arrfull_pde_j3_solver_v3_semilag.py`
-
-## Citation
-
-If you use this repository, please cite the dissertation associated with it.
-
-Suggested citation:
-
-> Boyao Zhang, *Market Making When Filtering Fads from Order Arrivals*, Master's thesis, MSc Mathematical and Computational Finance, University of Oxford, 2026.
-
-BibTeX template:
-
-```bibtex
-@misc{zhang_market_making_filtering_fads,
-  author = {Boyao Zhang},
-  title = {Market Making When Filtering Fads from Order Arrivals},
-  note = {Master's thesis, MSc Mathematical and Computational Finance, University of Oxford},
-  year = {2026}
-}
-```
-
-If you want the repository to cite the thesis itself rather than only the code repository, replace `@misc` with your final thesis entry format once the dissertation record is finalized.
 
 ## Related Literature
 

@@ -1,8 +1,10 @@
-# Code for Thesis Chapters 4 and 5
+# Market Making When Filtering Fads from Order Arrivals
 
-This repository contains the code used for the Chapter 4 and Chapter 5 experiments.
+Code for Chapters 4 and 5 of the dissertation *Market Making When Filtering Fads from Order Arrivals*.
 
-## Structure
+Repository: `0720BoyaoZhang/thesis-ch4-ch5-code`
+
+## Repository Structure
 
 - `ch4_numerical_results/`: numerical experiments and submission scripts for the Chapter 4 results.
 - `ch5_full_belief_nn/`: full-belief neural-network and PDE experiments for the Chapter 5 results.
@@ -16,7 +18,7 @@ Recommended:
 1. Create a virtual environment.
 2. Install dependencies with `pip install -r requirements.txt`.
 
-## Main dependencies
+## Main Dependencies
 
 - `numpy`
 - `scipy`
@@ -31,7 +33,7 @@ Recommended:
 - Several `.sbatch` files are included for cluster submission workflows.
 - Some Chapter 5 experiments require a CUDA-enabled PyTorch installation if you want GPU training.
 
-## Example entry points
+## Example Entry Points
 
 Chapter 4:
 
@@ -47,6 +49,30 @@ Chapter 5:
 - `ch5_full_belief_nn/exp56_refined_common_fiplug_benchmark.py`
 - `ch5_full_belief_nn/arrfull_pde_j3_solver_v3_semilag.py`
 
-## Reproducibility
+## Citation
 
-If you plan to share this repository publicly, add the thesis title, a short abstract, and a citation block here so other readers can connect the code to the paper.
+If you use this repository, please cite the dissertation associated with it.
+
+Suggested citation:
+
+> Boyao Zhang, *Market Making When Filtering Fads from Order Arrivals*, Master's thesis, MSc Mathematical and Computational Finance, University of Oxford, 2026.
+
+BibTeX template:
+
+```bibtex
+@misc{zhang_market_making_filtering_fads,
+  author = {Boyao Zhang},
+  title = {Market Making When Filtering Fads from Order Arrivals},
+  note = {Master's thesis, MSc Mathematical and Computational Finance, University of Oxford},
+  year = {2026}
+}
+```
+
+If you want the repository to cite the thesis itself rather than only the code repository, replace `@misc` with your final thesis entry format once the dissertation record is finalized.
+
+## Related Literature
+
+Some of the theoretical and modeling background is closely related to work such as:
+
+- Emilio Barucci, Adrien Mathieu, and Leandro Sanchez-Betancourt, *Market Making with Fads, Informed, and Uninformed Traders* (2025).
+- Alvaro Cartea and Leandro Sanchez-Betancourt, *Brokers and Informed Traders: Dealing with Toxic Flow and Extracting Trading Signals* (2025).
